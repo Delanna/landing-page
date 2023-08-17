@@ -1,0 +1,80 @@
+header{
+  background-color: darkviolet;
+  color:white;
+  height: 50px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h2{
+  color: deeppink;
+}
+
+.header-links{
+  display:flex;
+  justify-content: space-between;
+}
+
+header a {
+  margin-left: 50px;
+  color:deeppink;
+  font-weight: 600;
+}
+
+.hero{
+  background-color: darkviolet;
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+.hero .content{
+  height: inherit;
+  width:872.667px;
+  padding-left:40px;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.hero h1{
+  color:white;
+  font-size: 80px;
+  margin:0;
+}
+
+.hero .content div{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: -30px;
+  padding-left: 20px;
+}
+
+.hero p{
+  color:pink;
+  font-size: 25px;
+
+}
+
+.hero button{
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: pink;
+  color: deeppink;
+  font-weight: 600;
+  margin-right:160px;
+}
+
+.hero img{
+  transform: scaleX(-1);
+  flex:1;
+  height:300px;
+}
+
+.projects-sec h2{
+  text-align: center;
+}
+
