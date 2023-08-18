@@ -1,14 +1,19 @@
 header{
-  background-color: darkviolet;
+  background-color: #9400d3;
   color:white;
-  height: 50px;
+  height: 60px;
   display:flex;
   justify-content: space-around;
   align-items: center;
 }
 
-header h2{
-  color: deeppink;
+header img{
+  width:50px;
+  height: 50px;
+  border: 2.67px solid pink;
+  border-radius: 26px; 
+  margin-top:10px;
+  box-shadow: 0 0 14px deeppink;
 }
 
 .header-links{
@@ -20,19 +25,19 @@ header a {
   margin-left: 50px;
   color:deeppink;
   font-weight: 600;
+  font-size: 20px;;
 }
 
 .hero{
   background-color: darkviolet;
   display: flex;
-  height: 300px;
+  height: 400px;
+  justify-content:space-around;
   align-items: center;
+  padding-left: 100px; padding-right: 100px;
 }
 
-.hero .content{
-  height: inherit;
-  width:872.667px;
-  padding-left:40px;
+.hero .left{
   flex:1;
   display:flex;
   flex-direction:column;
@@ -45,77 +50,139 @@ header a {
   margin:0;
 }
 
-.hero .content div{
+.hero .left div{
   display:flex;
   justify-content:space-between;
   align-items: center;
   margin-top: -30px;
-  padding-left: 20px;
 }
 
 .hero p{
   color:pink;
   font-size: 25px;
-
+  padding-left: 20px;
 }
 
 .hero button{
-  padding: 0.5em;
-  border-radius: 0.5em;
-  background-color: pink;
-  color: deeppink;
+  padding: 5px;
+  padding-left:1em; padding-right: 1em; 
+  border-radius: 5px;
+  background-color: #ffc01f;
+  color: white;
+  border:none;
   font-weight: 600;
-  margin-right:160px;
+  font-size:18px;
+  margin-right:80px;
+  box-shadow: 1px 1px 8px white;
 }
 
-.hero img{
-  transform: scaleX(-1);
+.hero .right{
   flex:1;
-  height:300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .right img{
+  transform: scaleX(-1);
+  height:400px;
 }
 
 .projects-sec{
   text-align: center;
-  height: 350px;
+  height: 400px;
 }
 
-.projects-sec h2{
+h2{
   color: deeppink;
   font-size: 50px;
+  text-align: center;
+  text-shadow: 1.5px 1px 4px darkviolet;
 }
 
 .preview {
   display: flex;
   justify-content:center;
+  padding-left: 400px; padding-right:400px;
 }
 
-.preview > div {
-  text-align: center;
-  margin: 0 10px;
+.preview div {
   flex:1;
-  color:hotpink;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
   font-weight: bold;
   font-size: 20px;
 }
 
 .preview img{
-  background-color: deeppink;
   width: 200px;
-  border: 3px solid darkorchid;
-  border-radius:85px;
-  padding:8px;
+  box-shadow: 4px 4px 8px darkmagenta;
+}
+
+.preview p{
+  width:250px;
+  color:deeppink;
 }
 
 .about-me-sec{
-  background-color: gainsboro;
-  margin-top:60px;
-  height:300px;
-  Padding-top :40px; Padding-bottom :40px;
+  background-color: #c0adc1;
+  height:400px;
+  padding-top:1px;
   padding-left:100px; padding-right:100px;
+  color:#302b2b;
+  font-size: 18px;
+  text-align:center;
 }
 
 .about-me-sec p{
-  color:deeppink;
-  font-size: 20px;
-  font-weight: semi-bold;
+  padding-left: 200px; padding-right:200px;
+  text-align:center;
+  font-size: 21px;
 }
+
+.contact-sec{
+  height:115px;
+  padding: 50px;
+}
+.contact-sec .background{
+  background-color: darkviolet;
+  color: black;
+  border-radius:5px;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.background div{
+  text-align: start;
+}
+
+.background h3{
+  margin-bottom:0px;
+}
+
+.background p{
+  margin-top:0;
+
+}
+.background button{
+  background-color: darkviolet;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding:0.5em;
+  font-size: 16px;
+}
+
+footer{
+  background-color: #5c0183 ;
+  height:50px;
+  text-align:center;
+  color:black;
+  font-weight:600;
+  padding-top:2px;
+} 
