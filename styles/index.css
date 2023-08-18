@@ -74,7 +74,48 @@ header a {
   height:300px;
 }
 
-.projects-sec h2{
+.projects-sec{
   text-align: center;
+  height: 350px;
 }
 
+.projects-sec h2{
+  color: deeppink;
+  font-size: 50px;
+}
+
+.preview {
+  display: flex;
+  justify-content:center;
+}
+
+.preview > div {
+  text-align: center;
+  margin: 0 10px;
+  flex:1;
+  color:hotpink;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.preview img{
+  background-color: deeppink;
+  width: 200px;
+  border: 3px solid darkorchid;
+  border-radius:85px;
+  padding:8px;
+}
+
+.about-me-sec{
+  background-color: gainsboro;
+  margin-top:60px;
+  height:300px;
+  Padding-top :40px; Padding-bottom :40px;
+  padding-left:100px; padding-right:100px;
+}
+
+.about-me-sec p{
+  color:deeppink;
+  font-size: 20px;
+  font-weight: semi-bold;
+}
